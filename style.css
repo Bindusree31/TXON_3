@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+.bg-container{
+    background-color:#6B606A;
+    height:100vh;
+    background-size:cover;
+}
+.heading{
+    font-family:"Roboto";
+    font-weight:bold;
+    color:#43105F;
+}
+.create-task-heading{
+    font-family:"Roboto";
+    font-weight:bold;
+
+}
+.highlight{
+    font-family:"Roboto";
+    font-weight:500;
+}
+.user-input{
+    width:100%;
+    border:solid 1px #e4e7eb;
+    border-radius:10px;
+    padding:10px;
+    margin-top:8px;
+
+}
+.button{
+    padding:5px;
+    border-width:0px;
+    background-color: #492887;
+    border-radius:5px;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:20px;
+    padding-right:20px;
+    font-size:18px;
+    color:#ffffff;
+    
+}
+.todo-items-heading{
+    font-family:"Roboto";
+    font-weight:bold;
+}
+.todo-items-container{
+    margin:0px;
+    padding:0px;
+}
+.todo-item-container{
+    margin:15px;
+
+}
+.checkbox-Input{
+    width:20px;
+    height:20px;
+    margin-top:10px;
+    margin-right:10px;
+}
+.label-container{
+    background-color:#372E47;
+    width:100%;
+    border-radius:10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #450DAA;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    border-radius: 4px;
+}
+.checkbox-label{
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    width: 82%;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    color:#ffffff;
+    font-family:"Roboto";
+}
+.delete-container{
+    width:18px;
+    text-align:right;
+}
+.delete-icon{
+    padding:15px;
+    color:#B27176;
+}
+
+.checked{
+    text-decoration:line-through;
+    color:#B27176;
+}
